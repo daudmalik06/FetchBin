@@ -28,7 +28,7 @@ with open(keyword_file) as f:
 print ("keywords ",keywords)
 
 check_index = 0
-sleep_between_request = 60
+sleep_between_request = 5
 check_list = []
 
 while True :
@@ -90,7 +90,7 @@ while True :
 
     
     print ("Sleeping for ", sleep_between_request , "minute/s")
-    time.sleep(sleep_between_request)
+    time.sleep(sleep_between_request*60)
 
 
 
