@@ -86,9 +86,9 @@ while True :
                 print ("Skipping {}, already processed".format(individual['key']))
 
     else :
-        # print ("There was an error calling the url")
+        print ("There was an error calling the url")
 
-    # wait a minute
+    
     print ("Sleeping for ", sleep_between_request , "minute/s")
     time.sleep(sleep_between_request)
 
