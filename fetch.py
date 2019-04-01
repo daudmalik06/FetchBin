@@ -83,7 +83,8 @@ while True :
                     check_list.insert(check_index,individual['key'])
                     check_index = check_index + 1
             else :
-                print ("Skipping {}, already processed".format(individual['key']))
+                test = 1
+                #print ("Skipping {}, already processed".format(individual['key']))
 
     else :
         print ("There was an error calling the url")
