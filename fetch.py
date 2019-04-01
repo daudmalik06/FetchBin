@@ -89,7 +89,7 @@ while True :
         # print ("There was an error calling the url")
 
     # wait a minute
-    print "Sleeping for ", sleep_between_request , "minute/s"
+    print ("Sleeping for ", sleep_between_request , "minute/s")
     time.sleep(sleep_between_request)
 
 
