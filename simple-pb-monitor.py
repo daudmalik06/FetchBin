@@ -5,8 +5,8 @@ import requests, time, sys, os
 
 # Start with defaults
 keyword_file = 'keywords.txt'
-output_path = '.'
-check_ip = False
+output_path = './pastes'
+check_ip = True
 
 # keywords file as the first argument after the python file
 if len(sys.argv) > 1 :
@@ -18,8 +18,8 @@ if len(sys.argv) > 2 :
 
 # Turn on the check for non-authed IP
 if len(sys.argv) > 3 :
-    if 'True' in (sys.argv)[3] :
-        check_ip = True
+    if 'False' in (sys.argv)[3] :
+        check_ip = False
 
 # Load the keywords
 with open(keyword_file) as f:
