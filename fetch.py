@@ -1,3 +1,4 @@
+# encoding=utf8
 import requests, time, sys, os
 
 # Check for command line parameters for the keywords file and output directory
