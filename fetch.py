@@ -70,7 +70,7 @@ while True :
 
                             # Save to current dir using the key as the filename
                             file_object = open(output_path+'/'+word+'/'+individual['key'], 'w')
-                            file_object.write(text)
+                            file_object.write(text.encode("utf-8"))
                             file_object.close()
 
                          # Removed the break because we do want to save multiple times if multiple keywords are
